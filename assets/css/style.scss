@@ -551,11 +551,12 @@
                overflow: hidden;
                grid-column: 1/2;
                grid-row: 1/3;
+               position: relative;
 
                .card__poser-bookmark {
                   position: absolute;
-                  top: 244px;
-                  left: 164px;
+                  top: 0px;
+                  left: 0px;
                }
             }
 
@@ -573,11 +574,12 @@
             .card__poster-video {
                grid-row: 1/3;
                grid-column: 2/3;
+               position: relative;
 
                .card__poster-overlay {
                   position: absolute;
-                  top: 545px;
-                  left: 452px;
+                  bottom: 0px;
+                  left: 0px;
                   background: linear-gradient(
                      180deg,
                      rgba(0, 0, 0, 0) 0%,
@@ -593,14 +595,14 @@
 
                   .card__poster-play-icon {
                      position: absolute;
-                     top: 582.5px;
-                     left: 470px;
+                     bottom: 18.5px;
+                     left: 18.5px;
                   }
 
                   .card__poster-play-1 {
                      position: absolute;
-                     top: 582.5px;
-                     left: 470px;
+                     bottom: 18.5px;
+                     left: 18.5px;
                      /* display: none; */
                   }
 
@@ -611,8 +613,8 @@
 
                   .card__play-content {
                      position: absolute;
-                     top: 603px;
-                     left: 544.5px;
+                     bottom: 34px;
+                     left: 88px;
                      font-size: 24px;
                      font-weight: 400;
                      line-height: 28px;
@@ -622,8 +624,8 @@
 
                   .card__play-time {
                      position: absolute;
-                     top: 608px;
-                     left: 669.5px;
+                     bottom: 38px;
+                     left: 213px;
                      font-size: 16px;
                      font-weight: 400;
                      line-height: 19px;
@@ -633,8 +635,8 @@
 
                   .card__icon-more {
                      position: absolute;
-                     top: 256px;
-                     right: 399.5px;
+                     top: 12px;
+                     right: 12px;
                      padding: 8px;
                      border-radius: 50%;
                      background: rgba(0, 0, 0, 0.4);
